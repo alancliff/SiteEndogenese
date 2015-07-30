@@ -1,0 +1,14 @@
+body{
+	min-width: 850px;
+}
+#perfil > .row{
+	margin-bottom: 15px;
+}
+.titulo{
+	margin-top: 80px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 2em;
+
+
+}

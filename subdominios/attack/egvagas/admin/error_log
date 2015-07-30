@@ -1,0 +1,1 @@
+[10-Apr-2015 16:41:19 America/Chicago] PHP Parse error:  syntax error, unexpected ''/egvagas/img/load.gif\';?>'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in /home/endog103/public_html/subdominios/app/egvagas/admin/formulario_vaga.php on line 44

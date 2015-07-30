@@ -1,0 +1,111 @@
+@media all {
+
+#form-cliente{
+	margin: 40px 0 40px 0;
+}
+#form-cliente .input-group {
+	padding: 10px 0 10px 0;
+}
+
+.mensagem_aparece{
+	display: inline;
+}
+.mensagem_some{
+	display: none;
+}
+
+.titulo {
+color: #FFF;
+background:#6BC5EF;
+text-align:left;
+padding: 10px 0 10px 0;
+border-radius: 6px;
+font-weight: bold;
+margin-left: 0px;
+margin-right: 0px;
+
+}
+.titulo div{
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+}
+.titulo div:first-child{
+	border-left: none;
+	display: inline-block;
+}
+
+.titulo div:last-child{
+	border-right: none;
+
+}
+
+.rel-titulo{
+	border-radius:4px;
+	padding-left: 15px;
+}
+.rel-dados{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.rel-dados > li > span{
+	padding: 1px 3px 1px 3px;
+	border: 1px solid #428BCA;
+	margin-top: -2px;
+
+	font-weight: bolder;
+	border-radius: 2px; 
+	float: right;
+	margin-right: 25px; 	
+
+	
+}
+
+.rel-dados > li{
+	padding: 4px 4px 4px 4px;
+	background-color: #D9EDF7;
+	margin: 5px 10px 5px -30px;
+	color: #428BCA;
+	list-style-type:none;
+
+}
+
+.rel-comp {
+	padding: 4px 4px 4px 4px;
+	background-color: #D9EDF7;
+	
+	margin-top: -18px;
+
+
+}
+
+.cons-dados > div {
+	word-wrap: break-word;
+}
+
+.pagination > li > a {
+	cursor: pointer;
+}
+
+/*TELA DE LOGIN*/
+
+#body-login{
+height: 100%;
+	background: #cecece;
+}
+#form-signin{
+	margin-top: 40%;
+	background: #999;
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.container-geral{
+	min-width: 650px!important;
+
+}
+.checkbox{
+	margin-left: 20px;
+}
+	
+}

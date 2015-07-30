@@ -1,0 +1,196 @@
+/* ========================================================================
+ * EG Profissionais - Folha de Estilos egprofissionais.css V. 1.0
+ * Endogênese Consultoria e Serviços LTDA
+ * ========================================================================
+ * Finalidade: Estilos de formatação do website.
+ * Autor: Alan Cliff
+ * Última Atualização - 18/05/2015
+ * ======================================================================== */
+
+/*Implementa o fundo do background padrão do site, e fixa o tamanho da tela*/
+
+body{
+  background-image:url('http://base.endogenese.com.br/img/fundo/squared_metal.jpg');
+  background-attachment: fixed;
+  min-width: 700px; 
+
+}
+.box-container{
+  background-color: white;
+  box-shadow: 4px 4px 8px #888;
+
+}
+/*Tamanhos de fontes*/
+.fonte-lg{
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-top: -15px;
+}
+.fonte-md{
+	font-size: 2em;
+	font-weight: normal;
+	margin-top: -10px;
+	
+}
+.fonte-sm{
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-top: -10px;
+
+}
+.fonte-xs{
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-top: -10px;
+
+}
+/*Exibição das profissões em formato de cartão de visita*/
+.cartao_visita{
+
+    height: 145px;
+    width: 261px;
+    border: 2px outset #428BCA;
+    border-radius: 10px;
+    background-clip: padding-box;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-transition:  0.2s; /* Safari 3.1 to 6.0 */
+    -moz-transition:  0.2s; /* Safari 3.1 to 6.0 #46B8DA;*/
+    transition:  0.2s;
+  }
+.cartao_visita:hover{
+        margin-top: -4px;
+        margin-bottom: 4px;
+        cursor: pointer;
+        box-shadow: 4px 4px 8px #888;
+
+  }
+
+/*Estilo da foto de perfil, na listagem geral e no detalhamento*/
+.foto{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #54C082;
+    margin: auto;
+    margin-top: 10px; 
+
+    background-size: 100% auto ;
+    background-repeat: no-repeat;
+
+  }
+.foto_detalhe{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #E5E5E5;
+    background-size: 100% auto ;
+    background-repeat: no-repeat;
+
+
+  }
+ /*Estilo dos texto que aparecem na listagem geral*/
+.box-profissional{
+  border-top: 1px solid #54C082;
+  padding:10px 4px 10px 4px;
+  cursor: pointer;
+}
+.box-profissional:hover{
+  background-color: #dff0d8;
+}
+.listaProf option:hover{
+  background-color: #dff0d8;
+}
+.nomeProf{
+  color: #47A447;
+}
+.funcaoProf{
+  color: #54C082;
+} 
+
+ /*Cor de fundo dos textos na listagem geral e do cabeçalho e rodapé do modal*/
+.modal-header, .panel-heading{
+      color: white;
+      background-color: #428BCA;
+  }
+.modal-footer{
+    color: #428BCA;
+    background-color: #D9EDF7;
+  }
+
+legend{
+    font-variant: small-caps;
+  }
+/*Retira sublinhado do collapse*/
+.panel-title a:hover, .panel-title a:active, .panel-title a:focus{
+    text-decoration: none;
+  }
+/*Negrita e muda a cor do titulo do collapse*/
+.panel-title, #titulo_pesquisa{
+    font-weight: bold;
+    color: white;
+}
+
+/*Coloração dos botões de collapse*/
+#headingOne{
+  background-color: #46B8DA;
+}
+#headingTwo{
+  background-color: #54C082;
+}
+#headingThree{
+  background-color: #EC971F;
+
+}
+#titulo_pesquisa{
+  background-color: #47A447!important;
+}
+
+/*Ajuste no bloco de pesquisa, na lateral esquerda*/
+#campo_pesquisa{
+  display: block;
+}
+#campo_pesquisa > .input-group-addon{
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 4px;
+  font-size: 0.8em;
+  padding: 0px;
+}
+
+#campo_pesquisa .form-control{
+  border-top: none;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 4px!important;
+  text-align: center;
+}
+#campo_pesquisa select{
+  text-align: left!important;
+}
+
+
+/* Ícones de bolinha, no CAROUSEL
+.carousel-indicators li{
+position: relative;
+top: -4px;
+left: -1px;
+}
+.carousel-indicators a:hover{
+text-decoration: none;
+
+}
+.carousel-indicators a{
+display: inline-block;
+width: 10px;
+height: 10px;
+border-radius: 10px!important;
+}
+
+.carousel-indicators .active {
+
+    width: 10px;
+    height: 10px;
+
+  }*/

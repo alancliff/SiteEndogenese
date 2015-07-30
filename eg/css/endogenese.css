@@ -1,0 +1,362 @@
+/* CSS PADRÃO ENDOGÊNSE SOLUÇÕES */
+
+body{
+  background-image:url('http://base/img/fundo/squared_metal.jpg');
+  background-attachment: fixed;
+  min-width: 700px; 
+
+}
+
+
+/*.container{
+  min-width: 700px; 
+}*/
+/*Ajuste no texto de rodapé para centralizar. Altera nos tamanhos XS e SM*/
+
+
+.endo-icon{
+border:2px solid #999;
+background-color:#FFFFFF;
+padding: 3px 3px 3px 3px;
+border-radius: 3px 3px 3px 3px;
+}
+.endo-icon:hover{
+color: #fff;
+background-color:#000;
+cursor:default;
+}
+
+
+
+.endo_img_consultorias{
+
+padding-left:20px;
+padding-right:20px;
+padding-bottom:20px;
+}
+
+/* Ajuste na margem de cima, para que a página fique abaixo do menu fixo*/
+.endo_top{margin-top: 50px;}
+
+
+/* Classes alteradas do FOTORAMA, INCLUIDO NA PÁGINA DE CASOS DE SUCESSO: verificar: nav-tabs>li.active>a:hover,  */
+.fotorama__thumb{border-radius:150px!important;}
+.fotorama__thumb:hover{border-radius:150px!important; width:97%; height:97%}
+.fotorama__thumb-border{border-style:outset!important; border-color:#20D524!important;border-radius:150px!important;}
+.fotorama__caption{font-family:Verdana, Arial, Helvetica, sans-serif!important;font-size:1.2em!important;}
+
+/* Ajuste da borda, para arredondá-la mais de um lado, nas abas que tratam dos consultores, na página padrão Nossa História */
+.nav-tabs-endo-cons>li>a{border-radius:50px 4px 0 0!important;}
+
+
+/*Contorno com bordas arredondadas da DIV na página de Casos de Sucesso (Depoimentos)*/
+.endo_info{
+border-radius:50px;
+padding:6px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+
+
+/*Classe aplicada dentro dos links para exibilos como texto normal*/
+a.limpar_link>:link,a.limpar_link:visited, a.limpar_link:hover, a.limpar_link:active{
+text-decoration:none;
+color:inherit;
+}
+
+
+/*Usada para configurar a distância entre os itens do depoimento, na página casos de sucesso!*/
+
+/*Usada para configurar a distância entre os itens da página de parceiros*/
+.separa_parceiro{padding-top:20px;}
+
+
+/*Efeito de transição na lista de VALORES na página Nossa História*/
+
+.fade_valores:hover{
+cursor: default;
+color:#fff;
+background-color:#ccc;
+font-weight:bolder;
+-webkit-transition:background-color 1s, color 0.5s; /* For Safari 3.1 to 6.0 */
+-moz-transition:background-color 1s, color 0.5s; 
+transition:background-color 1s, color 0.5s;
+}
+
+/* Efeito nos circulos na página index*/
+
+.endo_circulo_index{
+          transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -webkit-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+		      max-width:140px;
+       }
+
+        .endo_circulo_index:hover{
+          margin-top: -15px;
+          margin-bottom: 15px;
+        }
+
+/* Featurettes------------------------- */
+
+
+
+.featurette-divider {
+
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+
+}
+
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+
+  font-weight: 300;
+
+  line-height: 1;
+
+  letter-spacing: -1px;
+
+}
+
+
+/* não lembro onde essas classes funcionam.*/
+/*
+.endo_titulo{
+
+text-align:center;
+margin-top:300px;
+}
+
+.endo_img_top{
+position:absolute;
+left:0px;
+top:0px;
+z-index:-1;
+}
+*/
+/*MODIFICAÇÃO DA CLASSE MODAL NA PÁGINA DE PARCEIROS*/
+.modal{
+
+margin-top:15%;}
+
+.endo_linha{
+
+width:400px;
+margin:auto;
+margin-bottom:10px;
+margin-top:10px;
+}
+
+/*Tratamentos nos elementos da página nossa história>Equipe*/
+
+.endo_tumb_equipe img{width:65px;height:65px;}
+#equipe li a{
+
+    }
+.endo_perfil_equipe img{width:270px; height:270px; margin-left:-15px;}
+.endo_perfil_equipe hr{margin-left:20%; margin-right:20%}
+.endo_perfil_equipe div{margin-top:20px;margin-right:0px;margin-left:0px;text-align:justify; }
+.endo_perfil_equipe blockquote{text-align:center;}
+
+.endo_perfil_equipe_2 img{width:250px; height:250px;display: block; margin: auto; margin-bottom:15px;}
+.endo_perfil_equipe_2 hr{margin-top:50px; margin-bottom:50px;}
+.endo_perfil_equipe_2 div{margin-top:20px;text-align:justify;}
+
+
+/*TRATAMENTO DAS ABAS NA PÁGINA 'NOSSA HISTÓRIA'*/
+.tab-content{overflow:auto;}
+.tab-content>.tab-pane{display:none}
+.tab-content>.active{display:block}
+.tabs-left>.nav-tabs{border-bottom:0}
+.tabs-left>.nav-tabs{float:left;margin-right:25px;border-right:1px solid #ddd}
+.tabs-left>.nav-tabs>li{float:none}
+.tabs-left>.nav-tabs>li>a{min-width:74px;margin-right:0;margin-bottom:3px}
+.tabs-left>.nav-tabs>li>a{margin-right:-1px;-webkit-border-radius:12px 0 0 12px;-moz-border-radius:12px 0 0 12px;border-radius:12px 0 0 12px}
+.tabs-left>.nav-tabs>li>a:hover,.tabs-left>.nav-tabs>li>a:focus{border-color:#eee #ddd #eee #eee; }
+.tabs-left>.nav-tabs .active>a,.tabs-left>.nav-tabs .active>a:hover,.tabs-left>.nav-tabs .active>a:focus{border-color:#ddd transparent #ddd #ddd;*border-right-color:#fff;background-color:#eee}
+
+
+.fotorama__caption__wrap{background-color:rgba(255,255,255,.6)!important;}
+
+
+.endo_img
+{
+max-width:100%;
+}
+.endo_img_desc_serv{
+          transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -webkit-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+        }
+.endo-box{
+background-color:#EEEEEE;
+border-radius: 6px 6px 6px 6px;
+margin-top:20px;
+padding: 10px;
+}
+/*
+/*
+/*
+/*******************************RESPONSIVIDADE DO SITE**********************************************/
+
+/*TAMANHO XS - CELULARES PEQUENOS*/
+@media (max-width: 767px){
+
+
+
+
+.endo_img_servico{
+min-width:100px;
+margin:auto;
+
+}
+.endo_conteudo_servico{
+min-width:100px;
+margin:auto;
+padding-left:10px;
+padding-right:10px;
+
+}
+
+
+
+.endo_img_desc_serv{
+display: block; 
+margin: auto;
+width:250px;
+height:250px;
+
+}
+
+.endo_img_desc_serv:hover{
+margin-top: -15px;
+margin-bottom: 15px;
+}
+.endo_panel-group_serv{width:90%; }
+
+.img_arred_1 {float:none !important;margin:auto;}
+.img_arred_2 {float:none !important;margin:auto;}
+
+.tabs-left>.nav-tabs{float:none;border-right:none;}
+.tabs-left>.nav-tabs>li{display: inline;}
+.nav>li>a {display: inline;line-height:300%;flex:1;}
+.tabs-left{margin-left:10px;margin-right:10px;}
+.tabs-left>.nav-tabs>li>a{margin-right:-1px;-webkit-border-radius:12px 12px 12px 12px;-moz-border-radius:12px 12px 12px 12px;border-radius:12px 12px 12px 12px}
+.tabs-left>.nav-tabs>li>a:hover,.tabs-left>.nav-tabs>li>a:focus{border-color:#eee; }
+.tabs-left>.nav-tabs .active>a,.tabs-left>.nav-tabs .active>a:hover,.tabs-left>.nav-tabs .active>a:focus{border-color:#ddd; background-color:#eee}
+
+.endo_img_consultorias{float:none!important;margin:auto;} /*CENTRALIZANDO IMAGENS DA EXPLICAÇÃO DAS CONSULTORIAS*/
+
+
+.endo_circulo_index{
+width: 20%;
+min-width:80px;
+}
+.endo-mapa
+{
+height:250px;
+}
+}
+/*TAMANHO SM - SMARTPHONES GRADES E TABLETS PEQUENOS*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+.endo_img_servico{
+
+width:750px; 
+margin:auto;
+
+}
+
+.endo_conteudo_servico{
+width:750px; 
+margin:auto;
+padding-left:10px;
+padding-right:10px;
+ 
+}
+
+.endo_topo_texto{}
+
+.endo_img_desc_serv{
+display: block; margin: auto;
+
+width:350px;
+height:350px;
+
+}
+
+ .endo_img_desc_serv:hover{
+
+margin-top: -15px!important;
+margin-bottom: 15px!important;
+}
+
+.endo_panel-group_serv{width:90%;  }
+
+/*.endo_menu{
+font-size:12px!important;
+
+}*/
+
+.endo_tumb_equipe img{width:40px;height:40px;}
+.endo_perfil_equipe img{display: block; margin: auto;}
+
+}
+/*TAMANHO MD - TABLETS GRANDES E COMPUTADORES MÉDIOS*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+.endo_img_servico{
+position: fixed;
+z-index:3; 
+left:65%;
+width:340px; 
+float:right!important;
+}
+
+.endo_conteudo_servico{
+width:630px; 
+padding-left:20px;
+padding-right:20px!important;
+float:left!important;
+}
+.endo_panel-group_serv{width:90%; }
+.endo_img_desc_serv{
+width:340px;
+height:340px;}
+}
+
+/*TAMANHO LG - COMPUTADORES E DISPOSITIVOS COM TELAS GRANDES*/
+@media (min-width: 1200px)  {
+/*Classes aplicadas na descrição dos serviços para efeito parallax, e responsividade*/
+.endo_img_servico{
+position: fixed;
+z-index:3; 
+left:65%;
+width:410px; 
+float:right!important;
+
+}
+
+.endo_conteudo_servico{
+width:760px; 
+padding-left:20px;
+padding-right:20px!important;
+float:left!important;
+}
+
+.endo_panel-group_serv{width:90%; }
+
+.endo_img_desc_serv{
+width:400px;
+height:400px;}
+}
+
+
